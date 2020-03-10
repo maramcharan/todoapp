@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <script defer src="home.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+</head>
+
+<body style="background-color: dimgrey;" >
+    <div id="sidepanel">
+        <span id="btnopen" class="btn"><</span>
+        <img src="./images/img.webp" class="rounded-circle">
+        <h5 id="name"><b>John Erick</b></h5>
+        <a href="#" id="notes" onclick="notesclick()">Notes</a>
+        <a href="#" id="trash">Trash</a>
+        <span id="signout" class="btn">Sign Out</span>
+        
+    </div>
+    <div id="mainpage">
+        <div  id="dispdiv">
+            <h1>TEENMAAR APP</h1>
+            <P id="paratext">We are the destination for cool graphic T-shirts, Hoodies, Posters etc. Discover the largest Collection of designs from independent artists.
+                We sell your designs after printing on T-shirts, Hoodies, Posters and more to thousands of TeenMaar Shoppers.
+            </P>
+        </div>
+            <div id="divtextbox">
+            <h6><b>Add Item</b></h6>
+            <input type="text" class="form-control" id="data">
+            <button class="btn btn-primary btn-sm" id="btnsubmit" onclick="Additemclick()">Submit</button>
+            </div>
+            <h6 id="dispitems"><b>Items List</b></h6>
+        <div id="itemlist">
+        </div>
+        <div id="notestrash" style="display: none;">
+            <b>List of items added</b>
+            <br>
+            <div id="linksclick"></div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
